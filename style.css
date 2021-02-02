@@ -5,16 +5,24 @@
 
 body {
     background-color: #F7F3EA;
-    width: 100vw;
+    min-width: 100vw;
     overflow-x: hidden;
+    position: relative;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .all {
     display: flex;
+    min-height: 100vh;
+    flex: 1;
 }
 
 .menu {
-    padding: 15% 3% 0 3%;
+    width: 15%;
+    padding: 15% 2% 0 2%;
     position: fixed;
     z-index: 2;
 }
@@ -33,39 +41,50 @@ a {
     color: #010000;
     font-weight: 600;
     color: #c6c6c6;
+    transition: 0.5s;
+}
+
+li i {
+    margin-right: 5%;
+}
+
+a:hover {
+    color: #F57246;
 }
 
 .content {
-    padding:0 0 0 18%;
+    width: 100%;
+    height: auto;
+    padding: 0 5% 0 20%;
 }
 
-.top {
-    position: relative;
-    margin-top: 40%;
-    
+.fa-comment {
+    transform: scale(-1, 1);
+}
+
+#top {
+    display: flex;
+    margin-top: 8%;
 }
 
 .top_left {
     background-image: url(img/08.png);
-    margin-top: 15%;
-    width: 572px;
-    height: 462px;
-    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: auto;
 }
 
+.left_con {
+    padding: 25% 0 0 15%;
+}
 
 .img_top {
-    width: 70%;
-    position: absolute;
-    top: 150px;
-    left: 80px;
+    width: 90%;
 }
 
 .top_text {
-    position: absolute;
-    top: 270px;
-    left: 105px;
-    width: 400px;
+    width: 80%;
 }
 
 .top_text1 {
@@ -80,13 +99,5 @@ a {
 }
 
 .top_right {
-    position: absolute;
-    top: 0;
-    left: 250px;
-}
-
-.top_right img {
-    width: 120%;
-    height: auto;
-
+    width: 80%;
 }

@@ -1,0 +1,95 @@
+.haikei {
+    background-image: url(img/09.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 20%;
+    margin: 8% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 i {
+    margin-right: 2%;
+}
+
+.haikei_text {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.haikei h2{
+    margin: 5% 0;
+    font-size: 2rem;
+    color: #1E6EA3;
+}
+
+.haikei p{
+    line-height: 2.3rem;
+    font-size: 1.2rem;
+}
+
+.rotate1{
+    transform: rotate(-5deg);
+}
+
+.rotate2{
+    transform: rotate(5deg);
+    float: right;
+}
+
+.rotate1 .haikei_text{
+    transform: rotate(5deg);
+}
+
+.rotate2 .haikei_text{
+    transform: rotate(-5deg);
+}
+
+.icons{
+    position: absolute;
+}
+
+.img1{
+    top: 590px;
+    left: 170px;
+}
+
+.img5{
+    top: 1100px;
+    right: 120px;
+}
+
+.img6{
+    top: 1650px;
+    left: 230px;
+}
+
+
+.img3{
+    top: 2190px;
+    right: 120px;
+}
+
+.img2{
+    top: 2700px;
+    left: 200px;
+}
+
+.img7{
+    top: 3200px;
+    right: 120px;
+}
+
+footer{
+    padding: 2% 0;
+    text-align: center;
+    background-color: #FFFAF0;
+    position: absolute;
+    width: 100vw;
+    bottom: -1500px;
+    color: #c6c6c6;
+}
+
