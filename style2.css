@@ -20,70 +20,133 @@ h2 i {
 }
 
 
-.haikei h2{
+.haikei h2 {
     margin: 5% 0;
     font-size: 2rem;
     color: #1E6EA3;
 }
 
-.haikei p{
+.haikei p {
     line-height: 2.3rem;
     font-size: 1.2rem;
 }
 
-.rotate1{
+.rotate1 {
     transform: rotate(-5deg);
 }
 
-.rotate2{
+.rotate2 {
     transform: rotate(5deg);
     float: right;
 }
 
-.rotate1 .haikei_text{
+.rotate1 .haikei_text {
     transform: rotate(5deg);
 }
 
-.rotate2 .haikei_text{
+.rotate2 .haikei_text {
     transform: rotate(-5deg);
 }
 
-.icons{
+.sns_con {
+    display: flex;
+}
+
+.sns_btn1 {
+    padding: 10%;
+    background-color: #1E6EA3;
+    margin-left: 5%;
+    border-radius: 10%;
+    transform: rotate(-10deg);
+}
+
+
+.sns_btn2 {
+    padding: 10%;
+    background-color: #F57246;
+    margin-left: 10%;
+    border-radius: 10%;
+    transform: rotate(10deg);
+}
+
+.btn:hover{
+    transform: scale(1.2,1.2);
+}
+
+.fa-twitter {
+    color: #fdfdfd;
+    font-size: 3rem;
+
+}
+
+.fa-instagram {
+    color: #fdfdfd;
+    font-size: 3rem;
+}
+
+
+.icons {
     position: absolute;
 }
 
-.img1{
+
+
+.anime {
+    animation-name: furufuru;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.anime2 {
+    animation-name: furufuru;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes furufuru {
+    0% {
+        transform: rotate(5deg);
+    }
+
+    100% {
+        transform: rotate(-5deg);
+    }
+}
+
+.img1 {
     top: 590px;
     left: 170px;
 }
 
-.img5{
+.img5 {
     top: 1100px;
     right: 120px;
 }
 
-.img6{
+.img6 {
     top: 1650px;
     left: 230px;
 }
 
 
-.img3{
+.img3 {
     top: 2190px;
     right: 120px;
 }
 
-.img2{
+.img2 {
     top: 2700px;
     left: 200px;
 }
 
-.img7{
-    top: 3200px;
+.img7 {
+    top: 3400px;
     right: 120px;
 }
 
-footer{
+footer {
     padding: 2% 0;
     text-align: center;
     background-color: #FFFAF0;
@@ -92,4 +155,3 @@ footer{
     bottom: -1500px;
     color: #c6c6c6;
 }
-
