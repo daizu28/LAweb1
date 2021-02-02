@@ -27,6 +27,7 @@ h2 i {
 }
 
 .haikei p {
+    font-family: 'Sen', sans-serif;
     line-height: 2.3rem;
     font-size: 1.2rem;
 }
@@ -69,8 +70,8 @@ h2 i {
     transform: rotate(10deg);
 }
 
-.btn:hover{
-    transform: scale(1.2,1.2);
+.btn:hover {
+    transform: scale(1.2, 1.2);
 }
 
 .fa-twitter {
