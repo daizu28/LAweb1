@@ -228,6 +228,7 @@ footer {
     .img6 {
         top: -40%;
         left: -5%;
+        width: 35%;
     }
 
 
@@ -247,13 +248,10 @@ footer {
         right: 0%;
     }
 
-    .btn i {
-        font-size: 1.5rem;
-    }
 
 
     footer{
-        padding: 2% 0 10% 0;
+        padding: 2% 0 2% 0;
         font-size: 0.8rem;
     }
 }
