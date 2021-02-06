@@ -30,12 +30,14 @@ body {
     z-index: 2;
 }
 
+
+
 ul {
     list-style: none;
 }
 
 li {
-    margin: 5% 0;
+    margin: 10% 0;
 }
 
 a {

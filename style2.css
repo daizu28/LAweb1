@@ -4,8 +4,8 @@
     background-repeat: no-repeat;
     width: 50%;
     height: auto;
-    padding: 10% 12% 10% 2%;
-    margin:  3% 0;
+    padding: 10% 12% 10% 3%;
+    margin: 3% 0;
     position: relative;
 }
 
@@ -137,7 +137,7 @@ h2 i {
     right: 8%;
 }
 
-.img2{
+.img2 {
     top: -50%;
     left: 0%;
 }
@@ -155,4 +155,95 @@ footer {
     width: 100vw;
     color: #c6c6c6;
     margin-top: 10%;
+}
+
+
+@media screen and (max-width:479px) {
+    .menu {
+        display: none;
+    }
+
+    .top_text1 {
+        text-align: right;
+        font-size: 0.8rem;
+    }
+
+    .top_text2 {
+        text-align: left;
+        color: #c6c6c6;
+        font-size: 1rem;
+    }
+
+    .content {
+        width: 100%;
+        height: auto;
+        padding: 0 3%;
+    }
+
+    .rotate2 {
+        margin: 0;
+    }
+
+    .top_right img {
+        width: 100%;
+        height: auto;
+    }
+
+    .haikei {
+        margin: 15% auto;
+        padding: 10% 2%;
+        width: 80%;
+    }
+    
+    .haikei_text{
+        width: 100%;
+    }
+
+    .haikei_text h2 {
+        font-size: 1.2rem;
+    }
+
+    .haikei_text p {
+        font-family: 'Sen', sans-serif;
+        line-height: 1.5rem;
+        font-size: 0.8rem;
+    }
+
+    .icons {
+        width: 40%;
+        height: auto;
+    }
+
+    .img1 {
+        top: -40%;
+        left: -10%;
+    }
+
+    .img5 {
+        top: 90%;
+        right: 0%;
+    }
+
+    .img6 {
+        top: -40%;
+        left: 0%;
+    }
+
+
+    .img3 {
+        top: -30%;
+        right: 0%;
+    }
+
+    .img2 {
+        top: -40%;
+        left: -10%;
+    }
+
+
+    .img7 {
+        top: 80%;
+        right: -10%;
+    }
+
 }
