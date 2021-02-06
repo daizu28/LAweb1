@@ -159,6 +159,7 @@ footer {
 
 
 @media screen and (max-width:479px) {
+    
     .menu {
         display: none;
     }
@@ -243,21 +244,13 @@ footer {
 
     .img7 {
         top: 80%;
-        right: -10%;
+        right: 0%;
     }
 
     .btn i {
         font-size: 1.5rem;
     }
 
-    .sns_btn1 {
-        padding: 7%;
-    }
-
-
-    .sns_btn2 {
-        padding: 7%;
-    }
 
     footer{
         padding: 2% 0 10% 0;
