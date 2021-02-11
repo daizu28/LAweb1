@@ -60,7 +60,7 @@ a:hover {
 .content {
     width: 100%;
     height: auto;
-    padding: 0 3% 0 20%;
+    padding: 0 0 0 21%;
 }
 
 .fa-comment {
@@ -73,7 +73,7 @@ a:hover {
 }
 
 .top_left {
-    background-image: url(img/08.png);
+    background-image: url(img/10.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 80%;

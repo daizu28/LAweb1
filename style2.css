@@ -1,11 +1,10 @@
 .haikei {
-    background-image: url(img/09.png);
+    background-image: url(img/11.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 50%;
+    width: 58%;
     height: auto;
-    padding: 10% 12% 10% 3%;
-    margin: 3% 0;
+    padding: 8% 4% 8% 4%;
     position: relative;
 }
 
@@ -16,6 +15,21 @@ h2 i {
 .haikei_text {
     width: 80%;
     margin: 0 auto;
+}
+
+.leaders_site {
+    text-decoration: none;
+    color: #000000;
+    transition: 0.5s;
+    font-size: 1.2rem;
+    font-weight: 300;
+    border-bottom: 1px solid #F57246;
+    margin: 0 3px;
+}
+
+.leaders_site:hover {
+    color: #F57246;
+    padding-bottom: 3px;
 }
 
 
@@ -32,20 +46,20 @@ h2 i {
 }
 
 .rotate1 {
-    transform: rotate(-5deg);
+    transform: rotate(-3deg);
 }
 
 .rotate2 {
-    transform: rotate(5deg);
+    transform: rotate(3deg);
     margin: 0 0 0 auto;
 }
 
 .rotate1 .haikei_text {
-    transform: rotate(5deg);
+    transform: rotate(3deg);
 }
 
 .rotate2 .haikei_text {
-    transform: rotate(-5deg);
+    transform: rotate(-3deg);
 }
 
 .sns_con {
@@ -117,13 +131,13 @@ h2 i {
 }
 
 .img1 {
-    top: -35%;
+    top: -50%;
     left: -10%;
 }
 
 .img5 {
-    top: 60%;
-    right: -50%;
+    top: 45%;
+    right: -40%;
 }
 
 .img6 {
@@ -133,23 +147,23 @@ h2 i {
 
 
 .img3 {
-    top: -50%;
+    top: -65%;
     right: 8%;
 }
 
 .img2 {
-    top: -50%;
+    top: -65%;
     left: 0%;
 }
 
 
 .img7 {
-    top: 60%;
-    right: -50%;
+    top: 45%;
+    right: -40%;
 }
 
 footer {
-    padding: 2% 0;
+    padding: 3% 0;
     text-align: center;
     background-color: #FFFAF0;
     width: 100vw;
@@ -159,7 +173,7 @@ footer {
 
 
 @media screen and (max-width:479px) {
-    
+
     .menu {
         display: none;
     }
@@ -173,6 +187,10 @@ footer {
         text-align: left;
         color: #c6c6c6;
         font-size: 1rem;
+    }
+    
+    .leaders_site{
+        font-size: 0.8rem;
     }
 
     .content {
@@ -193,7 +211,7 @@ footer {
     .haikei {
         margin: 15% auto;
         padding: 10% 2%;
-        width: 80%;
+        width: 85%;
     }
 
     .haikei_text {
@@ -217,7 +235,7 @@ footer {
 
     .img1 {
         top: -40%;
-        left: -10%;
+        left: -5%;
     }
 
     .img5 {
@@ -226,14 +244,14 @@ footer {
     }
 
     .img6 {
-        top: -40%;
+        top: -35%;
         left: -5%;
         width: 35%;
     }
 
 
     .img3 {
-        top: -30%;
+        top: -40%;
         right: 0%;
     }
 
@@ -244,14 +262,24 @@ footer {
 
 
     .img7 {
-        top: 80%;
+        top: 90%;
         right: 0%;
     }
 
 
 
-    footer{
-        padding: 2% 0 2% 0;
+    footer {
+        padding: 5% 0 5% 0;
         font-size: 0.8rem;
+        margin-top: 15%;
+    }
+
+    .sns_btn1 {
+        padding: 8%;
+    }
+
+
+    .sns_btn2 {
+        padding: 8%;
     }
 }
